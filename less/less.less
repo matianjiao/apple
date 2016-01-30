@@ -1,0 +1,21 @@
+@import "var.less";
+@import "funs";
+
+
+div{
+  border:1px solid @color;
+  width: @width;
+  height: @height;
+  .radius(@r1:20%,@r2:30%,@r3:40%,@r4:50%);//左上  右上  右下  左下
+  //.radius(@r1:20%,@r2:0%);//左上右下    右上左下
+  //.radius(@r1:10%,@r2:30%,@r3:0%);//左上  右上左下  右下
+
+  .box-shadow(@x:0px,@y:0px,@px:20px,@c:black,@inset:true);
+
+}
+div{
+  & span{
+    width:100px;
+    color:red;
+  }
+}

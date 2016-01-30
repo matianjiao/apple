@@ -1,0 +1,421 @@
+/*========header=======*/
+.header1{
+    background: rgba(0,0,0,0.9);
+    height: 44px;
+    font-size: 15px;
+    line-height: 2.75;
+    font-family: 'Helvetica';
+    font-weight: 300;
+}
+
+.header2{
+    display: none;
+    background: rgba(0,0,0,0.9);
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+
+}
+.header-con{
+    max-width: 1024px;
+    color:#fff;
+    line-height: 44px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.son{
+    padding-left: 35px;
+    background: rgba(0,0,0,0.9);
+    width: 300%;
+    display: none;
+
+}
+.menubtn{
+    cursor: pointer;
+}
+.son a{
+    width: 90%;
+    color: #C0C0C0;
+    height: 48px;
+    display: block;
+    font-size: 18px;
+    font-family: 'Helvetica';
+    font-weight: 200;
+    border-bottom:1px solid #333333 ;
+}
+
+.hover1{
+    height: 44px;
+    background: url("./images/large1.svg") center no-repeat;
+}
+.hover2{
+    height: 44px;
+    background: url("./images/large2.svg") center no-repeat;
+}
+.hover3{
+    height: 44px;
+    background: url("./images/large3.svg") center no-repeat;
+}
+.hover4{
+    height: 44px;
+    background: url("./images/small.svg") center no-repeat;
+}
+/*.hover1:hover{*/
+    /*background: url("./images/large1-1.svg") center no-repeat;*/
+/*}*/
+/*.hover2:hover{*/
+    /*background: url("./images/large1-2.svg") center no-repeat;*/
+/*}*/
+/*.hover3:hover{*/
+    /*background: url("./images/large1-3.svg") center no-repeat;*/
+/*}*/
+
+
+
+/*========banner======*/
+.ban{
+    position: relative;
+    overflow: hidden;
+}
+.box{
+    width: 500%;
+}
+.list{
+    width: 20%;
+    float: left;
+    height: 350px;
+}
+
+.list:nth-child(1){
+    background: url(./images/small1.png) no-repeat center bottom;
+    background-size:auto 200px ;
+    background-position-y:120px;
+}
+.list:nth-child(2){
+    background: url(./images/small2.jpg) no-repeat center bottom;
+    background-size:auto 200px ;
+    background-position-y:140px;
+}
+.list:nth-child(3){
+    background: url(./images/small3.jpg) no-repeat center bottom;
+    background-size:auto 200px ;
+    background-position-y:160px;
+}
+.list:nth-child(4){
+    background: url(./images/small4.png) no-repeat center bottom;
+    background-size:auto 150px ;
+    background-position-y:180px;
+}
+.list:nth-child(5){
+    background: url(./images/small1.png) no-repeat center bottom;
+    background-size:auto 200px ;
+    background-position-y:100px;
+}
+.text{
+    margin-top:50px;
+}
+.imgapple{
+    width: 132px;
+    height: 30px;
+    margin: 0 auto;
+    background: url(./images/heiapple.png);
+}
+.text h1,.text h3,.text h2,.text a{
+    font-family: "微软雅黑";
+    font-weight: 100;
+    text-align: center;
+}
+.text h1{
+    color: #333333;
+}
+.text h2{
+    color: #6B336B;
+    margin-bottom:10px ;
+}
+.text h3{
+    color: #6B336B;
+    margin:10px auto ;
+    line-height: 2;
+}
+.text a{
+    display: block;
+    font-size: 14px;
+    color: #08c;
+}
+
+ul{
+    width: 115px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    left:46%;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    background: #999999;
+    float: left;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.cir1{
+    width: 10px;
+    height: 10px;
+    background: none;
+    border: 1px solid #08c;
+    margin-top: -1px;
+}
+
+
+/*==========banner下的4张图========*/
+.image4{
+    height: 200px;
+    border: 1px solid #FFFFFF;
+}
+
+.image4:nth-child(1){
+    background: url("./images/img1.jpg") no-repeat center;
+}
+.image4:nth-child(2){
+    background: url("./images/img2.png") no-repeat center;
+}
+.image4:nth-child(3){
+    background: url("./images/img3.jpg") no-repeat center;
+}
+.image4:nth-child(4){
+    background: url("./images/img4.jpg") no-repeat center;
+}
+
+
+/*===========底部============*/
+.footer1{
+    background: #f2f2f2;
+    color: #333;
+    padding: 16px;
+}
+.footer1 h4{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 38px;
+    color: #333;
+}
+h4 span{
+    float: right;
+    padding:0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.footer1-1{
+    font-family: "微软雅黑";
+    font-weight: 100;
+    font-size: 12px;
+
+}
+.footer1-1 a{
+    color: #0088CC;
+}
+.footer1-1 p{
+    height: 20px;
+    margin-top: 6px;
+    color: #999;
+}
+.footer1-1 .bottom{
+    margin-bottom: 20px;
+}
+
+.footer-con{
+    font-family: "微软雅黑";
+    font-weight: 100;
+    font-size: 12px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.footer4 h4{
+    color: black;
+
+}
+.xiala p{
+    height: 20px;
+}
+/*.xiala{*/
+    /*display: none;*/
+/*}*/
+/*.footer4 h4 span{*/
+    /*display: block;*/
+/*}*/
+
+
+
+/*========屏幕=======*/
+/*小于540*/
+@media screen and (max-width:540px){
+    .text h3{
+        width: 200px;
+    }
+}
+
+/*小于730*/
+@media screen and (max-width:730px){
+    .text h1{
+        font-size:35px ;
+    }
+    .text a{
+        font-size: 13px;
+    }
+}
+
+
+/*730---1060*/
+@media screen and (min-width:730px) and (max-width: 1060px){
+    .list{
+        height: 596px;
+    }
+
+    .xia{
+        margin-top: 20px;
+    }
+    .footer4 h4{
+        font-size: 15px;
+        height: 38px;
+        line-height:3;
+    }
+    /*.xiala{*/
+        /*display:block;*/
+    /*}*/
+    /*.footer4 h4 span{*/
+        /*display: none;*/
+    /*}*/
+    .footer1-1 .bottom{
+        border-bottom: 1px solid #ccc;
+        height: 25px;
+        margin: 10px 0;
+    }
+    .zhongguo{
+        float: right;
+        display: inline-block;
+    }
+    .footer1-1 .yihang{
+        float: left;
+        margin:0 30px 0 0;
+    }
+    .list:nth-child(1){
+        background: url(./images/medium1.png) no-repeat center;
+        background-size:auto 400px ;
+    }
+    .list:nth-child(2){
+        background: url(./images/medium2.jpg) no-repeat center;
+        background-size:auto 400px ;
+        background-position-y:100px;
+    }
+    .list:nth-child(3){
+        background: url(./images/medium3.jpg) no-repeat center;
+        background-size:auto 400px ;
+        background-position-y:200px;
+    }
+    .list:nth-child(4){
+        background: url(./images/medium4.png) no-repeat center;
+        background-size:auto 400px ;
+        background-position-y:200px;
+    }
+    .list:nth-child(5){
+        background: url(./images/medium1.png) no-repeat center;
+        background-size:auto 400px ;
+    }
+}
+
+
+/*大于730*/
+@media screen and (min-width: 1060px){
+    .list{
+        height: 610px;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text a{
+        font-size:16px;
+    }
+    .xia{
+        margin-top: 20px;
+    }
+    /*.xiala{*/
+        /*display:block;*/
+    /*}*/
+    /*.footer4 h4 span{*/
+        /*display: none;*/
+    /*}*/
+
+    .footer4 h4{
+        font-size: 15px;
+        height: 38px;
+        line-height:3;
+    }
+
+    .footer1-1 .bottom{
+        border-bottom: 1px solid #ccc;
+        height: 25px;
+        margin: 10px 0;
+    }
+    .zhongguo{
+        float: right;
+        display: inline-block;
+    }
+    .footer1-1 .yihang{
+        float: left;
+        margin:0 30px 0 0;
+    }
+    .list:nth-child(1){
+        background-size:auto 600px ;
+        background: url(./images/large1.png) no-repeat center;
+        background-position-y:-30px;
+    }
+    .list:nth-child(2){
+        background-size:auto 600px ;
+        background: url(./images/large2.jpg) no-repeat center;
+        background-position-y:100px;
+    }
+    .list:nth-child(3){
+        background-size:auto 600px ;
+        background: url(./images/medium3.jpg) no-repeat center;
+        background-position-y:200px;
+    }
+    .list:nth-child(4){
+        background-size:auto 600px ;
+        background: url(./images/medium4.png) no-repeat center;
+        background-position-y:200px;
+    }
+    .list:nth-child(5){
+        background-size:auto 600px ;
+        background: url(./images/large1.png) no-repeat center;
+        background-position-y:-30px;
+    }
+}
+
+
+.yincang{
+    display: none;
+}
+.xianshi{
+    display: block !important;
+}
+
+
+
+/**/
+/*图片宽/容器宽*/
+
+/*cover     比例小的计算*/
+/*contain  比例大的计算*/
+
+
+
+
+
+
+
+
+
+
